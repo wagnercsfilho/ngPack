@@ -1,0 +1,31 @@
+{
+  "name": "ngPack",
+  "version": "0.0.0",
+  "authors": [
+    "wagnercsfilho <wagnercsfilho@hotmail.com>"
+  ],
+  "description": "AngularJS directives for Phonepack",
+  "main": "dist/js/ngPack.js",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "phonepack",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "http://phonepack.org/ngpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phonepack": "~0.1.8",
+    "angular": "~1.4.8"
+  }
+}
